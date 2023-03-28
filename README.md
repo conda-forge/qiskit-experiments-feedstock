@@ -1,11 +1,11 @@
-About qiskit-experiments
-========================
+About qiskit-experiments-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-experiments-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Qiskit/qiskit-experiments
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-experiments-feedstock/blob/main/LICENSE.txt)
 
 Summary: Software for developing quantum computing programs
 
