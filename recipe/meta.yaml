@@ -1,5 +1,5 @@
 {% set name = "qiskit-experiments" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-experiments-{{ version }}.tar.gz
-  sha256: 32106088d9c5a18e1db037c560c648fce4a0cc22a9ce25c10218b90c846a9f4c
+  sha256: 084c8c0db14e7f93c3ad5d86fb0f72e5a534b6ebd9f3e421bc280dbd01e5aeec
 
 build:
   noarch: python
@@ -19,13 +19,14 @@ requirements:
     - pip
     - python >=3.7
   run:
+    - qiskit-dynamics >=0.3.0
+    - rustworkx
     - lmfit
     - matplotlib-base >=3.4
     - numpy >=1.17
     - python >=3.7
-    - qiskit-ibmq-provider >=0.16.0
     - qiskit-ibm-experiment >=0.2.5
-    - qiskit-terra >=0.21.1
+    - qiskit-terra >=0.22
     - scipy >=1.4
     - uncertainties
 
