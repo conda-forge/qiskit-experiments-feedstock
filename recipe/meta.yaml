@@ -17,18 +17,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
     - pandas >=1.1.5
     - qiskit >=0.45
-    - qiskit-dynamics >=0.3.0
     - rustworkx
     - lmfit
     - matplotlib-base >=3.4
     - numpy >=1.17
-    - python >=3.7
+    - python >=3.8
     - qiskit-ibm-experiment >=0.4.6
-    - qiskit-terra >=0.22
     - scipy >=1.4
     - uncertainties
 
