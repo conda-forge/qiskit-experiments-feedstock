@@ -1,5 +1,5 @@
 {% set name = "qiskit-experiments" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-experiments-{{ version }}.tar.gz
-  sha256: 82d2c8fa59de72a224bd4ccd865f15a34ed3dc2967b05073be413089e2635853
+  sha256: 83e0cb1ab7b6c968321ffdde84a3a892daf5c21d258ab6f27b81bb07648024ef
 
 build:
   noarch: python
@@ -18,7 +18,9 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools
   run:
+    - packaging
     - pandas >=1.1.5
     - qiskit >=0.45
     - rustworkx
