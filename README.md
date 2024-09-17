@@ -3,13 +3,13 @@ About qiskit-experiments-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-experiments-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Qiskit/qiskit-experiments
+Home: https://github.com/qiskit-community/qiskit-experiments
 
 Package license: Apache-2.0
 
 Summary: Software for developing quantum computing programs
 
-Documentation: https://qiskit.org/documentation/
+Documentation: https://qiskit-community.github.io/qiskit-experiments/
 
 Current build status
 ====================
@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@BastianZim](https://github.com/BastianZim/)
+* [@wshanks](https://github.com/wshanks/)
 
