@@ -1,13 +1,13 @@
 {% set name = "qiskit-experiments" %}
-{% set version = "0.8.2" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/qiskit-experiments-{{ version }}.tar.gz
-  sha256: f9e03f2fc42dfc8fa667f4b8b5ed3b5b1e98935f59069d201f3388b54cda483c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 9699cd39d97e1e9b514dd06ef482d170ee39636edcd472349ed3a4d3eb7045a3
 
 build:
   noarch: python
