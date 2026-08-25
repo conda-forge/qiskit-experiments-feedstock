@@ -42,31 +42,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `qiskit-experiments` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install qiskit-experiments
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install qiskit-experiments
 ```
 
-It is possible to list all of the versions of `qiskit-experiments` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add qiskit-experiments
+# for installing globally
+pixi global install qiskit-experiments
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `qiskit-experiments` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search qiskit-experiments --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search qiskit-experiments --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search qiskit-experiments --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -78,6 +120,8 @@ mamba repoquery whoneeds qiskit-experiments --channel conda-forge
 # List dependencies of `qiskit-experiments`:
 mamba repoquery depends qiskit-experiments --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge

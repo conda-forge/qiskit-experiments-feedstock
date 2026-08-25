@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.14.1"
+  version: "0.14.2"
 
 package:
   name: qiskit-experiments
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/qiskit-experiments/qiskit_experiments-${{ version }}.tar.gz
-  sha256: 5b09ec6c293b036b036a892dd73a025716f3832a48ce12bd3d78544a35c63fec
+  sha256: b06b46311d022ed4a15dc3e0ec89d3a7965caec1e58a758f23727085fb404ce4
 
 build:
   number: 0
